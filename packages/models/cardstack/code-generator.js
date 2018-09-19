@@ -43,7 +43,8 @@ define('@cardstack/models/generated/{{modelName}}', ['exports', '@cardstack/mode
              caption: "{{field.caption}}",
              editorComponent: "{{field.editorComponent}}",
              inlineEditorComponent: "{{field.inlineEditorComponent}}",
-             owned: {{field.owned}}
+             owned: {{field.owned}},
+             fieldType: "{{field.fieldType}}"
             }),
          {{/with}}
        {{else}}
